@@ -1,0 +1,131 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+
+        a {
+            color: #1000f5;
+            display: inline-table;
+            text-decoration: none;
+            margin-right: 15px;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .header {
+            color: #7b7b7c;
+            background-color: aqua;
+            margin-top: 40px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .c-site-header nav ul li {
+            float: right;
+            display: inline-block;
+            margin-left: 15px;
+        }
+        
+        .header .Search-img {
+            background: #ce0314;
+        }
+        
+        .clearfix {
+            clear: both;
+        }
+        
+        .search-box {
+            text-align: left;
+            margin: 40px auto;
+        }
+        
+        .search-box .search-input {
+            margin-right: 40px;
+            float: right;
+            width: 150px;
+            height: 5px;
+            padding: 10px;
+            border-radius: 20px;
+            margin: 10px;
+            border: 1px solid #ce0314;
+        }
+        
+        .section-title {
+            margin-right: 40px;
+            margin: 10px;
+            padding: 5px;
+            margin-left: 400px;
+            border-radius: 10px;
+            color: #151833;
+        }
+        
+        p {
+            margin-right: 40px;
+            margin: 10px;
+            padding: 5px;
+            margin-left: 330px;
+            border-radius: 10px;
+            border: 1px solid #746969;
+            background-color: #f0f0f0;
+        }
+        
+        .search-box .search-btn {
+            margin-right: 40px;
+            margin: 10px;
+            float: right;
+            padding: 5px;
+            border-radius: 10px;
+            border: 1px solid #746969;
+            background-color: #f0f0f0;
+            cursor: pointer;
+        }
+        
+        .Search-img {
+            margin-left: 40px;
+            margin-top: 100px;
+            float: left;
+        }
+        
+        div ul li {
+            float: left;
+            display: inline-block;
+            color: #ce0314;
+            position: relative;
+        }
+        
+        .c-site-footer .right-footer {
+            float: right;
+            color: #f50021;
+        }
+        
+        .About-me {
+            margin-right: 40px;
+            margin: 30px;
+            padding: 5px;
+            margin-left: 30px;
+            text-decoration-color: rgb(7, 241, 241);
+            border-radius: 10px;
+            border: 1px solid #746969;
+            background-color: #f0f0f0;
+            font-family: 'Gill Sans', 'Gill Sans 
+        }
+
+.main-video {
+  width: 50%;
+  height: 500px;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
